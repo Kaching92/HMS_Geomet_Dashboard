@@ -1,0 +1,7 @@
+Model,Train R²,Test R²,R² Gap,Test RMSE,Test MAE,Train RMSE,Rank
+Linear Regression,1.0000,1.0000,0.0000,0.0000,0.0000,0.0000,1
+Ridge Regression,1.0000,1.0000,-0.0000,0.0000,0.0000,0.0000,2
+Lasso Regression,1.0000,1.0000,0.0000,0.0004,0.0003,0.0004,3
+Elastic Net,1.0000,1.0000,0.0000,0.0004,0.0003,0.0004,4
+Random Forest,1.0000,0.9999,0.0001,1.9852,0.2774,0.8601,5
+Gradient Boosting,0.9999,0.9999,0.0000,2.3525,1.5523,1.8891,6
