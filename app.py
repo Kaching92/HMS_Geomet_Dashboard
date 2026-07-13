@@ -76,7 +76,7 @@ def load_feature_medians():
 @st.cache_data
 def load_model_comparison():
     """Load model comparison results"""
-    csv_path = Path("dashboard/model_comparison_table.csv")
+    csv_path = Path("model_comparison_table.csv")
     if csv_path.exists():
         return pd.read_csv(csv_path)
     return None
