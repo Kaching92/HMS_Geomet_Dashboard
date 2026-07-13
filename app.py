@@ -271,7 +271,7 @@ elif page == "📈 Model Comparison":
         with col2:
             st.markdown("#### 📉 Test RMSE Comparison")
             fig, ax = plt.subplots(figsize=(10, 6))
-            colors = plt.cm.reds(np.linspace(0.3, 0.9, len(model_comparison)))
+            colors = plt.cm.plasma(np.linspace(0.3, 0.9, len(model_comparison)))
             ax.bar(model_comparison['Model'], model_comparison['Test RMSE'], color=colors)
             ax.set_ylabel('RMSE ($/t)')
             ax.set_title('Model Error (Test Set)')
